@@ -23,6 +23,15 @@ li {
 	list-style-position:inside;
 	}
 
+blockquote {
+	font-family: 'Bitter', serif;
+	margin-left:15px;
+	font-size:1.2em;
+	line-height:1.4em;
+	padding-top:15px;
+	margin-bottom:15px;
+	}
+
 #wrapper {
 	margin:0 auto;
 	max-width: 960px;
@@ -293,6 +302,7 @@ ul.doc li {
 
 .contact .learn-more {
 	clear:both;
+	padding-top:.25em;
 	}
 
 .google-maps {
@@ -308,11 +318,18 @@ ul.doc li {
 	width: 100% !important;
 	height: 100% !important;
 	clear:both;
-	padding-top:.5em;
+	padding:.6em 0;
 	}
 
 .google-maps.large {
 	margin:1em auto;
+	}
+
+img.bio {
+	float:right;
+	width:30%;
+	margin-left:15px;
+	margin-bottom:15px;
 	}
 
 fieldset {
@@ -325,9 +342,6 @@ fieldset {
 
 form   {
 	font-size:100%;
-	}
-
-form legend   {
 	}
 
 form p   {
@@ -436,6 +450,7 @@ h1, h2, h3, h4 {
 	line-height:1.2;
 	font-weight:lighter;
 	font-variant:small-caps;
+	clear:both;
 }
 
 h1 {
@@ -644,18 +659,18 @@ a {
 	
 	main.inner {
 		width:100%;
-		margin:0;
+		margin:0 0 1em 0;
 		padding:0;
 		float:none;
 		}
 	
-	.procedures-services h1 {
+	main.inner h1 {
 		font-size:1.953em;
     	padding-top:.5em;
 		margin-bottom:.5em;
 		}
 	
-	.procedures-services h2, aside h3 {
+	main.inner h2, aside h3 {
 		font-size:1.563em;
     	padding-top:.4em;
 		margin-bottom:.4em;
@@ -667,13 +682,20 @@ a {
 	
 	aside {
 		width:100%;
-		margin:0 0 30px 0;
-		padding:0;
+		margin:0 0 .6em 0;
+		padding:.6em 0 0 0;
 		float:none;
+		border-top:4px solid #C9CFA5;
 		}
 	
-	aside.contact {
-		padding-top:1.5em;
+	.resources p {
+		margin:0;
+		padding:0;
+		}
+	
+	.resources h4 {
+		margin:0;
+		padding:0;
 		}
 }
 

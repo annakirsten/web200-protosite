@@ -5,12 +5,12 @@
 <nav id="navigation">
     <ul id="main-menu">
     	<li class="mobile"><a href="portal.php">Patient Portal: Login</a></li>
-        <li class="sm nav<?php if ($page == 'about.php') { print '-on'; } ?>"><a href="about.php">About Us</a>
+        <li class="sm nav<?php if ($page == 'about.php' || $page == 'mission.php' || $page == 'history.php' || $page == 'physicians.php' || $page == 'physician_assistants.php' || $page == 'staff.php') { print '-on'; } ?>"><a href="about.php">About Us</a>
         	<ul class="sub-menu">
         		<li><a href="#">Mission</a></li>
                 <li><a href="#">History</a></li>
-                <li><a href="#">Surgeons</a></li>
-                <li><a href="#">Physician Assistants</a></li>
+                <li><a href="physicians.php">Physicians</a></li>
+                <li><a href="physician_assistants.php">Physician Assistants</a></li>
                 <li><a href="#">Staff</a></li>
             </ul>  <!--end sub-menu-->
         </li>
